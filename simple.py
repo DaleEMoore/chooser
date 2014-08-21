@@ -14,7 +14,10 @@ while True:
     guess = input("What number am I thinking of between 1 and 10? ")
 
     if guess in thinking_of:
-        print("Congratulations I was thinking of " + ''.join(str(e) for e in thinking_of))
+        s1 = ", ".join(map(str, thinking_of))
+        print("Congratulations I was thinking of " + s1)
+        #Congratulations I was thinking of 357
+        #print("Congratulations I was thinking of " + ''.join(str(e) for e in thinking_of))
         break
     else:
         print("Nope, try again.")

@@ -8,7 +8,7 @@
 __author__ = 'dalem'
 
 # TODO; make thinking_of two values randomly assigned on each execution.
-thinking_of = [3, 7]
+thinking_of = [3, 5, 7]
 
 while True:
     guess = input("What number am I thinking of between 1 and 10? ")
@@ -18,3 +18,5 @@ while True:
         break
     else:
         print("Nope, try again.")
+# The program prints all correct numbers upon entering the 3, 5, or 7, instead of just the number by itself.
+# I will try to fix it.
